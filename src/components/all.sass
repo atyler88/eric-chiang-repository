@@ -2,7 +2,7 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #e78200
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
@@ -80,8 +80,9 @@ $black: #2b2523
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
+  font-size: 2rem
 footer.footer
-  padding: 3rem 0rem 0rem
+  padding: 2rem 0rem 1rem
   background-color: transparent
 
 //Menu overrides
@@ -119,8 +120,8 @@ $menu-label-color: $white-ter
   display: flex;
   margin-bottom: 1em;
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  flex-basis: 100%;
+  margin: 0 0 0 0;
 
 
 @import "~bulma"
@@ -129,12 +130,12 @@ $menu-label-color: $white-ter
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 100%;
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
     text-align: center;
-    max-width: 70%;
+    max-width: 100%;
     margin: 0 0 1em;
