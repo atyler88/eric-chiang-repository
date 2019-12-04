@@ -31,9 +31,6 @@ const Navbar = class extends React.Component {
               </Link>
             {/* Hamburger menu */}
             
-            <div className="navbar-start has-text-centered">
-
-            </div>
           </div>
         </div>
       </nav>

@@ -6,6 +6,11 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
+import facebook from '../img/social/facebook.svg'
+import instagram from '../img/social/instagram.svg'
+import twitter from '../img/social/twitter.svg'
+import vimeo from '../img/social/vimeo.svg'
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -15,9 +20,10 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
+  
   <div>
     <div
-      className="full-width-image margin-top-0"
+      className="full-width-image is-large margin-top-0"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -59,13 +65,44 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
+        <div className="column social">
+                <a title="facebook" href="https://facebook.com">
+                  <img
+                    src={facebook}
+                    alt="Facebook"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="twitter" href="https://twitter.com">
+                  <img
+                    className="fas fa-lg"
+                    src={twitter}
+                    alt="Twitter"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="instagram" href="https://instagram.com">
+                  <img
+                    src={instagram}
+                    alt="Instagram"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="vimeo" href="https://vimeo.com">
+                  <img
+                    src={vimeo}
+                    alt="Vimeo"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+              </div>
       </div>
     </div>
-    <section className="section section--gradient">
+    <section className="section">
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-10 is-offset-1">
+            <div className="column is-12">
               <div className="content">
                 <div className="content">
                   <div className="tile">
@@ -95,6 +132,7 @@ export const IndexPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
                   </h3>
+                
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">

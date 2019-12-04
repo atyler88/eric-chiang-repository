@@ -36,6 +36,42 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+          <div>
+    <div
+      className="full-width-image is-large margin-top-0"
+      style={{
+        // backgroundImage: `url(${
+        //   !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        // })`,
+        backgroundPosition: `top left`,
+        backgroundAttachment: `fixed`,
+      }}
+    >
+      <div
+        style={{
+          display: 'flex',
+          height: '150px',
+          lineHeight: '1',
+          justifyContent: 'space-around',
+          alignItems: 'left',
+          flexDirection: 'column',
+        }}
+      >
+        <h1
+          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          style={{
+            backgroundColor: '#354147',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
+            margin: '1rem'
+          }}
+        >
+          Contact
+        </h1>
+              </div>
+      </div>
+    </div>
         <section className="section">
           <div className="container">
             <div className="content">
