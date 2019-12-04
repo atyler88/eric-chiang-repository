@@ -9,3 +9,5 @@ tags:
   - magnolia
 ---
 Heres the body paragraph about the  thing
+
+![](/img/investment.jpg)
