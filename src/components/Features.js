@@ -14,6 +14,7 @@ const FeatureGrid = ({ gridItems }) => (
                 display: 'inline-block',
               }}
             >
+              Heres a Title For Each Section
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
