@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
+title: Slims Investment Property
 date: 2016-12-17T15:04:10.000Z
+description: This is a description of what slim thinks about his invesment property.
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
+featuredimage: /img/house.jpg
 tags:
   - flavor
   - tasting
