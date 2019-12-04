@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Slims Investment Property
 date: 2016-12-17T15:04:10.000Z
 description: This is a description of what slim thinks about his invesment property.
-featuredpost: false
+featuredpost: true
 featuredimage: /img/house.jpg
 tags:
   - flavor
