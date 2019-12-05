@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
 title: Eric J Chiang
-image: /img/realestate.jpg
-heading: Great coffee with a conscience
 subheading: Real Estate Professional
+image: /img/real-estate.jpg
+heading: Great coffee with a conscience
 mainpitch:
   title: Why Kaldi
   description: >
