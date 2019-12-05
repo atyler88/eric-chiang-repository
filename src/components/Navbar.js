@@ -23,8 +23,8 @@ const Navbar = class extends React.Component {
             <Link to="/" className="navbar-item has-text-weight-semibold is-size-3" title="Logo">
               Home
             </Link>
-            <Link className="navbar-item has-text-weight-semibold is-size-3" to="/blog">
-                Current Projects
+            <Link className="navbar-item has-text-weight-semibold is-size-3" to="/products">
+              Projects
               </Link>
               <Link className="navbar-item has-text-weight-semibold is-size-3" to="/contact">
                 Contact

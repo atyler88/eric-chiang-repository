@@ -9,7 +9,8 @@ import BlogRoll from '../components/BlogRoll'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+import gmail from '../img/social/gmail.svg'
+import ejc from '../img/ejc.jpg'
 
 export const IndexPageTemplate = ({
   image,
@@ -64,34 +65,33 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-        <div className="column social">
+        <div className="column social is-large">
                 <a title="facebook" href="https://facebook.com">
                   <img
                     src={facebook}
                     alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
+                    style={{ width: '2em', height: '2em' }}
                   />
                 </a>
                 <a title="twitter" href="https://twitter.com">
                   <img
-                    className="fas fa-lg"
                     src={twitter}
                     alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
+                    style={{ width: '2em', height: '2em' }}
                   />
                 </a>
                 <a title="instagram" href="https://instagram.com">
                   <img
                     src={instagram}
                     alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
+                    style={{ width: '2em', height: '2em' }}
                   />
                 </a>
-                <a title="vimeo" href="https://vimeo.com">
+                <a title="gmail" href="https://gmail.com">
                   <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: '1em', height: '1em' }}
+                    src={gmail}
+                    alt="gmail"
+                    style={{ width: '2em', height: '2em' }}
                   />
                 </a>
               </div>
@@ -103,14 +103,24 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-12">
               <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                <div className="columns">
+                  <div className="column">
+                  <img
+                    src={ejc}
+                    alt="EJC"
+                  />
                   </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
+                  <div className="column">
+                    <div className="content">
+                      <div className="tile">
+                        <h1 className="title">{mainpitch.title}</h1>
+                      </div>
+                      <div className="tile">
+                        <h3 className="subtitle">{mainpitch.description}</h3>
+                      </div>
+                    </div>
+                  </div>  
+                </div>  
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">

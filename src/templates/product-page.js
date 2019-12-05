@@ -6,6 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import BlogRoll from '../components/BlogRoll'
 
 export const ProductPageTemplate = ({
   image,
@@ -50,6 +51,7 @@ export const ProductPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
+              <BlogRoll/>
               <Features gridItems={intro.blurbs} />
               <div className="columns">
                 <div className="column is-7">
