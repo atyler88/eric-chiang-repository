@@ -20,13 +20,13 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item has-text-weight-semibold is-size-3" title="Logo">
+            <Link to="/" className="navbar-item is-size-4" title="Logo">
               Home
             </Link>
-            <Link className="navbar-item has-text-weight-semibold is-size-3" to="/products">
+            <Link className="navbar-item is-size-4" to="/products">
               Projects
               </Link>
-              <Link className="navbar-item has-text-weight-semibold is-size-3" to="/contact">
+              <Link className="navbar-item is-size-4" to="/contact">
                 Contact
               </Link>
             {/* Hamburger menu */}

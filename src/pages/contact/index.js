@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import Background from '../../img/background.jpg'
 
 function encode(data) {
   return Object.keys(data)
@@ -38,11 +39,11 @@ export default class Index extends React.Component {
       <Layout>
           <div>
     <div
-      className="full-width-image is-large margin-top-0"
+      className="full-width-image is-large margin-top-0" 
       style={{
-        // backgroundImage: `url(${
-        //   !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        // })`,
+        backgroundImage: `url(${
+Background
+        })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}

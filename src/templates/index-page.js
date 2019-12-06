@@ -43,7 +43,7 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className="has-text-weight-semibold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             backgroundColor: '#354147',
             color: 'white',
@@ -55,7 +55,7 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-semibold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             color: 'white',
             lineHeight: '1',
@@ -113,11 +113,16 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="column">
                     <div className="content">
-                      <div className="tile">
                         <h1 className="title">{mainpitch.title}</h1>
+                      <div className="tile is-size-1">
+                        <h1>Engineer</h1>
+                        {/* <h3 className="subtitle">{mainpitch.description}</h3> */}
                       </div>
-                      <div className="tile">
-                        <h3 className="subtitle">{mainpitch.description}</h3>
+                      <div className="tile is-size-1">
+                        <h1>Realtor</h1>
+                      </div>
+                      <div className="tile is-size-1">
+                        <h1>Investor</h1>
                       </div>
                     </div>
                   </div>  
