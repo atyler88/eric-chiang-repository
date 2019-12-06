@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Current Projects
-image: /img/herocrop-arctic.jpg
+image: /img/blog-index.jpg
 heading: Take a look at a few of the projects I'm currently involved in
 description: >-
   From volunteer work to starting my own company I am involved in a number of
